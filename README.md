@@ -51,6 +51,5 @@ Use the project validation path:
 
 ## Documentation
 
-- `MAPS_AND_CHOICES.md` — the 20-map campaign spec; `map_spec_tests.rs` and `map_spec_late_tests.rs` assert the levels against it.
+- `MAPS_AND_CHOICES.md` — the 20-map campaign spec used to validate authored levels.
 - `TODO.md` — everything still open.
-

@@ -9,3 +9,7 @@
 - [ ] Replace duplicated button interaction logic in `src/ui.rs` (`draw_button`, `draw_choice_card`) with shared toolkit widgets/input helpers while preserving appearance, disabled states, release activation, and returned UI actions (§7.1–7.4).
 - [ ] After test migration, add focused gameplay regressions for line-of-sight occlusion/range, smoke/darkness, cloak expiry, crouch/jump boundaries, and capture/retry transitions. Add separate progression coverage for Helpful/Gremlin upgrade scaling, caps, and route ties through `src/progression.rs` (§11).
 - [ ] After test migration, cover `migrate_save_value` and restored sessions: wrapped/raw saves, legacy ending repair, malformed payloads, level-index clamping, and choice truncation with preserved morality/upgrades (§11).
+
+## Settings and display
+
+- [ ] Add a player-accessible Settings option with a persisted Fullscreen toggle.
